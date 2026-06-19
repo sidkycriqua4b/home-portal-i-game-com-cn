@@ -1,2 +1,35 @@
-# home-portal-i-game-com-cn
-爱游戏 - https://home-portal-i-game.com.cn
+# 爱游戏 - 游戏门户网站
+
+欢迎来到 **爱游戏**，一个专注于提供优质游戏内容与便捷访问体验的在线门户。通过访问 [https://home-portal-i-game.com.cn](https://home-portal-i-game.com.cn)，您可以快速进入一个汇聚多种游戏资源的平台。
+
+## 简介
+
+**爱游戏** 致力于为游戏爱好者打造一站式的信息入口。网站以简洁直观的界面，帮助用户轻松发现热门游戏、获取最新动态，并享受流畅的在线浏览体验。无论您是休闲玩家还是硬核爱好者，[https://home-portal-i-game.com.cn](https://home-portal-i-game.com.cn) 都可能是您探索游戏世界的理想起点。
+
+## 特点
+
+- **集中入口**：通过单一门户 [https://home-portal-i-game.com.cn](https://home-portal-i-game.com.cn)，快速访问各类游戏相关内容。
+- **清晰导航**：页面布局注重实用性，方便用户按兴趣浏览。
+- **持续更新**：爱游戏团队定期维护站点，确保信息时效性与稳定性。
+- **轻量访问**：无需复杂注册流程，打开即用，降低使用门槛。
+
+## 访问方式
+
+您可以通过以下方式直接访问 **爱游戏**：
+
+- 在浏览器地址栏输入：[https://home-portal-i-game.com.cn](https://home-portal-i-game.com.cn)
+- 搜索关键词 “爱游戏” 或 “爱游戏门户”，找到对应链接。
+
+## 使用提示
+
+- 请确保网络连接正常，以获得最佳加载体验。
+- 如遇访问问题，可尝试刷新页面或更换浏览器。
+- 本网站内容仅供参考，具体游戏资源以实际页面为准。
+
+## 反馈与支持
+
+如果您对 **爱游戏** 有任何建议或发现链接异常，欢迎通过 GitHub Issues 或项目讨论区与我们联系。我们珍视每一位用户的反馈，并将持续优化 [https://home-portal-i-game.com.cn](https://home-portal-i-game.com.cn) 的使用体验。
+
+---
+
+**爱游戏**，让游戏触手可及。

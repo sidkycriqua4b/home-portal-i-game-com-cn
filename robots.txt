@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sidkycriqua4b.github.io/home-portal-i-game-com-cn/sitemap.xml
