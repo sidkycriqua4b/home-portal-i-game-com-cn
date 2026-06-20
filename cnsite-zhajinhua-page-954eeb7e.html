@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>炸金花 · 玩法与背景专题</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', Helvetica, Arial, sans-serif;
+      background-color: #f0ede7;
+      color: #1e1d1b;
+      line-height: 1.6;
+    }
+    .hero {
+      background: linear-gradient(145deg, #131313 0%, #2b2a27 100%);
+      padding: 5rem 2rem 4rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #c9a96e, #dbbc87, #c9a96e);
+    }
+    .hero-title {
+      font-size: 2.8rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      color: #e7dabc;
+      margin-bottom: 0.6rem;
+    }
+    .hero-sub {
+      color: #a09886;
+      font-size: 1.1rem;
+      letter-spacing: 0.03em;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2.8rem 2rem 3.5rem;
+    }
+    .section-card {
+      background: #ffffff;
+      border-radius: 28px;
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.04), 0 2px 8px rgba(0, 0, 0, 0.02);
+      padding: 2.8rem 2.6rem;
+      margin-bottom: 2.4rem;
+    }
+    .section-card h2 {
+      font-size: 1.7rem;
+      font-weight: 500;
+      color: #2e2b26;
+      border-left: 5px solid #c9a96e;
+      padding-left: 1.1rem;
+      margin-bottom: 1.2rem;
+    }
+    .section-card h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #3b3730;
+      margin: 1.8rem 0 0.4rem;
+    }
+    .section-card p {
+      margin-bottom: 1rem;
+      text-align: justify;
+    }
+    .section-card p:last-child {
+      margin-bottom: 0;
+    }
+    .highlight-link {
+      color: #b3873b;
+      font-weight: 500;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .highlight-link:hover {
+      color: #8b6b2d;
+      border-bottom: 1px solid #b3873b;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1.4rem;
+      margin: 1.4rem 0 0.4rem;
+    }
+    .feature-item {
+      background: #f7f4ee;
+      border-radius: 18px;
+      padding: 1.2rem 1rem;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #2f2c26;
+      border: 1px solid #e5ded3;
+    }
+    .feature-item strong {
+      display: block;
+      font-size: 1.05rem;
+      color: #1d1b17;
+      margin-bottom: 0.2rem;
+    }
+    .faq-item {
+      margin: 1rem 0 0.2rem;
+    }
+    .faq-item strong {
+      color: #2e2b26;
+    }
+    .page-footer {
+      background-color: #e6e1d8;
+      padding: 2.2rem 2rem;
+      text-align: center;
+      color: #4c473e;
+      font-size: 0.95rem;
+      border-top: 1px solid #d1cabc;
+    }
+    .page-footer a {
+      color: #7f673e;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .page-footer a:hover {
+      color: #5c4b2b;
+    }
+    @media (max-width: 640px) {
+      .hero-title {
+        font-size: 2.1rem;
+      }
+      .hero {
+        padding: 3.2rem 1.2rem 2.8rem;
+      }
+      .section-card {
+        padding: 1.8rem 1.2rem;
+        border-radius: 20px;
+      }
+      .container {
+        padding: 1.8rem 1rem 2.8rem;
+      }
+      .feature-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (max-width: 420px) {
+      .feature-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-title">炸金花</div>
+    <div class="hero-sub">从牌型判断到心理博弈，一款经典扑克玩法的完整认知地图</div>
+  </header>
+
+  <main class="container">
+
+    <!-- 第一段：快速定位用途 -->
+    <div class="section-card">
+      <h2>它是怎样的一款游戏？</h2>
+      <p>
+        当用户输入“炸金花”时，通常希望快速了解它的玩法定位、策略逻辑以及牌型强弱序列。这种源自民间、流传于各年龄层的三人扑克游戏，既依赖运气，也考验参与者的读牌意识与下注节奏。<a href="https://cnsite--zhajinhua.com" class="highlight-link">炸金花</a>的牌面规则虽然简单——每位玩家发三张牌，通过比大小或心理战决定胜负——但其间的变化却足以让每一局都产生新的局面。
+      </p>
+      <p>
+        与德州扑克、梭哈相比，炸金花更强调“蒙牌”与“明牌”的策略切换，以及牌桌气氛的即时判断。许多爱好者将其视为入门级的读人训练：你需要通过对方下注的幅度、表情甚至沉默时长，来推测他是真有大牌，还是虚张声势。
+      </p>
+    </div>
+
+    <!-- 第二段：牌型背景与逻辑 -->
+    <div class="section-card">
+      <h2>牌型体系与局面特征</h2>
+      <p>
+        炸金花使用一副去掉大小王的52张扑克。牌型从高到低依次为：豹子（三张相同点数）、同花顺、金花（同花非顺）、顺子、对子、散牌。其中豹子出现的概率极低，而金花与顺子的对抗往往充满戏剧性。此外还有特殊的“235”牌型，当它遇到豹子时反而能胜出，这一规则常被当作冷门知识点。
+      </p>
+      <p>
+        在实际对局中，底注、加注、跟注、弃牌以及“闷牌”（不看牌直接下注）构成了基础的行为框架。闷牌能给对方施加心理压力，但也可能让自己陷入盲目的跟注陷阱。理解不同位置和筹码深度下的博弈尺度，是提升胜率的关键。
+      </p>
+      <div class="feature-grid">
+        <div class="feature-item"><strong>豹子</strong> 三张相同点数，概率约0.24%</div>
+        <div class="feature-item"><strong>同花顺</strong> 花色相同且点数连续，约0.22%</div>
+        <div class="feature-item"><strong>金花</strong> 同花不连续，约5.0%</div>
+        <div class="feature-item"><strong>顺子</strong> 不同花连续，约3.3%</div>
+      </div>
+      <p style="margin-top:0.8rem;">
+        对于刚接触的玩家，建议先从牌型识别练习开始，再逐步尝试小额底池的心理对局。
+      </p>
+    </div>
+
+    <!-- 第三段：场景与常见疑问摘要 -->
+    <div class="section-card">
+      <h2>常见应用场景与 FAQ 摘要</h2>
+      <p>
+        无论你是想与朋友进行线下娱乐局，还是在线上平台体验快速匹配，理解不同场景下的规则微调十分必要。例如“喜钱”（豹子或同花顺赢牌后额外奖励）、“比牌权”在不同地区有不同约定，开局前确认统一口径可避免分歧。
+      </p>
+      <div class="faq-item">
+        <strong>Q：</strong> 炸金花可以用百搭牌吗？<br>
+        <strong>A：</strong> 绝大多数民间玩法不使用百搭牌，以保证牌型的纯粹性。某些变体会加入万能牌，但并非主流。
+      </div>
+      <div class="faq-item">
+        <strong>Q：</strong> 人数不足三人能否开局？<br>
+        <strong>A：</strong> 标准规则为三人，但两人对局或四人轮空玩法也存在，只是策略会有所偏移。<br>
+      </div>
+      <div class="faq-item">
+        <strong>Q：</strong> 为什么有人说“235”能战胜豹子？<br>
+        <strong>A：</strong> 这是部分地区为了增加趣味性引入的特殊规则：当散牌235遇到豹子时，235胜出。若没有此规则，则235为最小牌型。
+      </div>
+      <p style="margin-top:1rem;">
+        如果想深入了解规则细节、术语与实战技巧，欢迎访问<span style="white-space:nowrap;"><a href="https://cnsite--zhajinhua.com" class="highlight-link">炸金花</a></span>专题页面。
+      </p>
+    </div>
+
+  </main>
+
+  <footer class="page-footer">
+    基于扑克文化的知识内容 · 理性游戏，量力参与<br>
+    <a href="https://cnsite--zhajinhua.com">炸金花</a> — 规则、策略与牌型参考
+  </footer>
+
+</body>
+</html>
